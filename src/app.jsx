@@ -29,7 +29,7 @@ export function App() {
 
     return (
         <div class="pt-16 max-w-sm mx-auto grid gap-6">
-            <h1 class="font-bold text-3xl pb-2">Todo List Solid.js</h1>
+            <h1 class="font-bold text-3xl pb-2">Todo Demo Solid.js</h1>
             <Input add={add} />
             <List todos={getTodos()} remove={remove} edit={edit} />
         </div>
